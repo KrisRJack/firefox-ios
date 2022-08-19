@@ -46,9 +46,6 @@
 /* On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar. */
 "ActivityStream.JumpBackIn.TabGroup.SiteCount" = "Panely: %d";
 
-/* On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists, the Tab Group item title will be 'Your search for \"video games\"'. The %@ sign is a placeholder for the actual search the user did. */
-"ActivityStream.JumpBackIn.TabGroup.Title" = "Vaše vyhledávání „%@“";
-
 /* A string used to signify the start of the Recently Saved section in Home Screen. */
 "ActivityStream.Library.Title" = "Naposledy uložené";
 
@@ -290,9 +287,6 @@
 /* Context menu item for sharing a link URL */
 "ContextMenu.ShareLinkButtonTitle" = "Sdílet odkaz";
 
-/* Contextual hints are little popups that appear for the users informing them of new features. This one talks about the more personalized home feature. */
-"ContextualHints.Homepage.PersonalizedHome" = "Na své osobní domovské stránce Firefoxu vždy najdete, co jste dělali naposledy, ať už nedávno otevřené panely, záložky nebo výsledky vyhledávání.";
-
 /* Contextual hints are little popups that appear for the users informing them of new features. This one is a call to action for the popup describing search bar placement. It indicates a user can navigate to the settings page that allows them to customize the placement of the search bar. */
 "ContextualHints.SearchBarPlacement.CallToAction" = "Nastavení lišty";
 
@@ -462,6 +456,9 @@
 
 /* The title for the Sponsored Content context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to a support page where users can learn more about Sponsored content and how it works. */
 "FirefoxHomepage.ContextualMenu.SponsoredContent.v101" = "Naši sponzoři a vaše soukromí";
+
+/* This string will show under the description on pocket story, indicating that the story is sponsored. */
+"FirefoxHomepage.Pocket.Sponsored.v103" = "Sponzorováno";
 
 /* This string will show under a shortcuts tile on the firefox home page, indicating that the tile is a sponsored tile. Space is limited, please keep as short as possible. */
 "FirefoxHomepage.Shortcuts.Sponsored.v100" = "Sponzorováno";
@@ -1077,8 +1074,8 @@
 /* Label for the share button in the menu page. Pressing this button open the share menu to share the current website. */
 "Menu.Share.v99" = "Sdílet";
 
-/* Label for the button, displayed in the menu, takes you to sync sign in when pressed. */
-"Menu.SignInToSync.Label.v99" = "Přihlásit se ke službě Sync";
+/* Label for the Firefox Sync button in the menu page. Pressing this button open the sign in to Firefox page service to sync and save data. */
+"Menu.SyncAndSaveData.v103" = "Synchronizace a ukládání dat";
 
 /* Toast displayed to the user after a tab has been sent successfully. */
 "Menu.TabSent.Confirm" = "Panel odeslán";
@@ -1182,9 +1179,6 @@
 /* label for the menu item that lets you remove a website from the tracking protection whitelist */
 "Menu.TrackingProtectionWhitelistRemove.Title" = "Povolit pro tento web";
 
-/* The title for the option to view the What's new page. */
-"Menu.WhatsNew.Title" = "Co je nového";
-
 /* Accessibility label for Mobile Device image in remote tabs list */
 "mobile device" = "mobilní zařízení";
 
@@ -1219,8 +1213,20 @@
 /* String used to describes what Firefox is on the first onboarding page in our Onboarding screens. Indie means small independant. */
 "Onboarding.IntroDescriptionPart1.v102" = "Nezávislý. Neziskový. Navždy.";
 
+/* String used to describes what Firefox is on the first onboarding page in our Onboarding screens. */
+"Onboarding.IntroDescriptionPart2.v102" = "Zavázali jsme se zlepšovat internet pro všechny.";
+
 /* Describes an action on some of the Onboarding screen, including the wallpaper onboarding screen. This string will be on a button so user can skip that onboarding page. */
 "Onboarding.LaterAction.v102" = "Teď ne";
+
+/* Describes an action on the sync onboarding page in our Onboarding screens. This string will be on a button so user can sign up or login directly in the onboarding. */
+"Onboarding.SyncAction.v102" = "Registrace a přihlášení";
+
+/* Description for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can set a wallpaper. */
+"Onboarding.WallpaperAction.v102" = "Nastavit tapetu";
+
+/* Title for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can choose different wallpapers. */
+"Onboarding.WallpaperTitle.v102" = "Výběr tapety Firefoxu";
 
 /* On the onboarding card letting users know what's new in this version of Firefox, this is the title for the button, on the bottom of the card, used to get back to browsing on Firefox by dismissing the onboarding card */
 "Onboarding.WhatsNew.Button.Title" = "Začít prohlížet";
@@ -1379,7 +1385,7 @@
 /* Accessibility Label for the tab toolbar Search button
    Navigation title for search settings.
    Open search section of settings */
-"Search" = "Vyhledávání";
+"Search" = "Hledat";
 
 /* The text shown in the URL bar on about:home */
 "Search or enter address" = "Zadejte hledání nebo adresu";
@@ -1589,9 +1595,6 @@
 /* Option choice in display theme settings for light theme */
 "Settings.DisplayTheme.OptionLight" = "Světlý";
 
-/* Display (theme) settings footer describing how the brightness slider works. */
-"Settings.DisplayTheme.SectionFooter" = "Vzhled se bude automaticky měnit podle jasu vašeho displeje. Můžete nastavit hranici, kdy má ke změně dojít. Kroužek ukazuje aktuální jas vašeho displeje.";
-
 /* Switch mode settings section title */
 "Settings.DisplayTheme.SwitchMode.SectionHeader" = "Režim přepínání";
 
@@ -1652,6 +1655,9 @@
 
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "Zkratky";
+
+/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
+"Settings.Home.Option.SponsoredPocket.v103" = "Sponzorované články";
 
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "Po 4 hodinách nepoužívání domovskou stránku";
@@ -1833,6 +1839,15 @@
 /* Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behavior. */
 "Settings.OpenWith.SectionName" = "E-mailová aplikace";
 
+/* Message shown when you enter Passwords screen for the first time. It explains how password are protected in the Firefox for iOS application. */
+"Settings.Passwords.OnboardingMessage.v103" = "Vaše hesla jsou chráněná pomocí Face ID, Touch ID nebo kódu zámku.";
+
+/* Setting that appears in the Passwords screen to enable the built-in password manager so users can save their passwords. */
+"Settings.Passwords.SavePasswords.v103" = "Ukládat hesla";
+
+/* Title for the passwords screen. */
+"Settings.Passwords.Title.v103" = "Hesla";
+
 /* Setting to enable the built-in password manager */
 "Settings.SaveLogins.Title" = "Ukládat přihlašovací údaje";
 
@@ -1898,6 +1913,15 @@
 
 /* Label used as a toggle item in Settings. When this is off, the user is opting out of all studies. */
 "Settings.Studies.Toggle.Title" = "Studie";
+
+/* Ddescription that appears in the settings screen to explain what Firefox Sync is useful for. */
+"Settings.Sync.ButtonDescription.v103" = "Pro synchronizaci svých panelů, záložek, hesel a dalších věcí se přihlaste.";
+
+/* Button label that appears in the settings to prompt the user to sign in to Firefox for iOS sync service to sync and save data. */
+"Settings.Sync.ButtonTitle.v103" = "Synchronizovat a ukládat data";
+
+/* Title for the page where the user sign in to their Firefox Sync account. */
+"Settings.Sync.SignInView.Title.v103" = "Synchronizace a ukládání dat";
 
 /* This is the description for the setting that toggles the Inactive Tabs feature in the settings menu under the Tabs customization section. Inactive tabs are a separate section of tabs that appears in the Tab Tray, which can be enabled or not */
 "Settings.Tabs.CustomizeTabsSection.InactiveTabs" = "Neaktivní panely";
@@ -2136,6 +2160,12 @@
 
 /* The placeholder text for the tab search bar */
 "Tabs.Search.PlaceholderText" = "Hledat panely";
+
+/* Accessibility title for the inactive tabs section button when section is closed. This section groups all tabs that haven't been used in a while. */
+"TabsTray.InactiveTabs.SectionTitle.Closed.Accessibility.v103" = "Zobrazit neaktivní panely";
+
+/* Accessibility title for the inactive tabs section button when section is open. This section groups all tabs that haven't been used in a while. */
+"TabsTray.InactiveTabs.SectionTitle.Opened.Accessibility.v103" = "Skrýt neaktivní panely";
 
 /* Accessibility label for the Add Tab button in the Tab Tray. */
 "TabTray.AddTab.Button" = "Přidat panel";
